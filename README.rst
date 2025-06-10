@@ -17,6 +17,8 @@ Cartographer
 ============
 Note
 =======
+|build-jammy| |build-focal| |build-bionic| |build-bullseye| |build-buster| |docs| |license|
+
 **This repository contains a minor modification to the original Cartographer code.**
 Specifically, in the file:
 
@@ -27,7 +29,6 @@ At `global_trajectory_builder.cc`_, the following line at **line 112** has been 
 .. _global_trajectory_builder.cc: https://github.com/jsryu118/cartographer/blob/master/cartographer/mapping/internal/global_trajectory_builder.cc
 
 
-|build-jammy| |build-focal| |build-bionic| |build-bullseye| |build-buster| |docs| |license|
 
 Purpose
 =======
