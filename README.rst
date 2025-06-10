@@ -15,17 +15,17 @@
 ============
 Cartographer
 ============
-.. note::
+Note
+=======
+**This repository contains a minor modification to the original Cartographer code.**
+Specifically, in the file:
 
-   This repository contains a minor modification to the original Cartographer code.
-   Specifically, in the file:
+At `global_trajectory_builder.cc`_, the following line at **line 112** has been commented out:
 
-   `/home/js/cartographer_compare/cartographer copy/cartographer/mapping/internal/global_trajectory_builder.cc`
+   ``//pose_graph_->AddOdometryData(trajectory_id_, odometry_data);``
 
-   the following line at **line 112** has been commented out:
+.. _global_trajectory_builder.cc: https://github.com/jsryu118/cartographer/blob/master/cartographer/mapping/internal/global_trajectory_builder.cc
 
-   ```cpp
-   // pose_graph_->AddOdometryData(trajectory_id_, odometry_data);
 
 |build-jammy| |build-focal| |build-bionic| |build-bullseye| |build-buster| |docs| |license|
 
