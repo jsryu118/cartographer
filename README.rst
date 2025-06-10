@@ -15,12 +15,12 @@
 ============
 Cartographer
 ============
-Note
-=======
 |build-jammy| |build-focal| |build-bionic| |build-bullseye| |build-buster| |docs| |license|
 
+Note
+=======
+
 **This repository contains a minor modification to the original Cartographer code.**
-Specifically, in the file:
 
 At `global_trajectory_builder.cc`_, the following line at **line 112** has been commented out:
 
