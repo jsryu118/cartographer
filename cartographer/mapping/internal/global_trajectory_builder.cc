@@ -109,7 +109,7 @@ class GlobalTrajectoryBuilder : public mapping::TrajectoryBuilderInterface {
             odometry_data.time, odometry_data.pose)) {
       return;
     }
-    pose_graph_->AddOdometryData(trajectory_id_, odometry_data);
+    // pose_graph_->AddOdometryData(trajectory_id_, odometry_data);
   }
 
   void AddSensorData(
